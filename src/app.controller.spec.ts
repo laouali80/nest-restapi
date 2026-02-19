@@ -1,3 +1,6 @@
+// This is a test file for the AppController in a NestJS application.
+// It uses Jest as the testing framework to verify that the getHello() method of the AppController returns the expected string "Hello World!".
+
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
